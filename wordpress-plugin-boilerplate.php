@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name: WordPress Plugin Boilerplate
- * Description: This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description: A standardized, organized, object-oriented foundation for building high-quality WordPress Plugins.
  * Version:     1.0.0
- * Author:      Sourov
- * Author URI:  https://sourov.im/
+ * Author:      wpCodal
+ * Author URI:  https://wpcodal.com
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: plugin-name
