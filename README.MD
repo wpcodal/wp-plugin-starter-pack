@@ -1,0 +1,1 @@
+## wpCodal plugin boilerplate
