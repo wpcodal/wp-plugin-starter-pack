@@ -9,7 +9,7 @@ The WordPress Plugin Boilerplate includes the following files:
 * `.gitignore`. Used to exclude certain files from the repository.
 * `CHANGELOG.md`. The list of changes to the core project.
 * `README.md`. The file that you’re currently reading.
-* A `plugin-name` directory that contains the source code - a fully executable WordPress plugin.
+* A `wp-plugin-starter-pack` directory that contains the source code - a fully executable WordPress plugin.
 
 ## Features
 
@@ -49,21 +49,16 @@ For reference, [here's a discussion](http://make.wordpress.org/themes/2013/03/04
 
 Note that if you include your own classes, or third-party libraries, there are three locations in which said files may go:
 
-* `plugin-name/includes` is where functionality where you can put all your admin code, custom classes
-* `plugin-name/assets` is where you can add your site assets i.e images, js, css
-* `plugin-name/temlates` is for all view templates
-
-
-Note that previous versions of the Boilerplate did not include `Plugin_Name_Loader` but this class is used to register all filters and actions with WordPress.
-
-The example code provided shows how to register your hooks with the Loader class.
+* `includes` is where functionality where you can put all your admin code, custom classes.
+* `assets` is where you can add your site assets i.e images, js, css.
+* `temlates` is for all view templates.
 
 
 # Credits
 
-This plugin boliterplate was initially started by @sourovroy
+This plugin boliterplate was initially started by [@sourovroy](https://github.com/sourovroy)
 
-This version is updated to full stanadard of plugin boilerpate and modified by @code-with-mehedi
+This version is updated to full stanadard of plugin boilerpate and modified by [@code-with-mehedi][https://github.com/code-with-mehedi]
 
 
 ## Supports for custom development.
