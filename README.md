@@ -58,7 +58,7 @@ Note that if you include your own classes, or third-party libraries, there are t
 
 This plugin boliterplate was initially started by [@sourovroy](https://github.com/sourovroy)
 
-This version is updated to full stanadard of plugin boilerpate and modified by [@code-with-mehedi][https://github.com/code-with-mehedi]
+This version is updated to full stanadard of plugin boilerpate and modified by [@code-with-mehedi](https://github.com/code-with-mehedi)
 
 
 ## Supports for custom development.
