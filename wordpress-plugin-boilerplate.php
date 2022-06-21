@@ -40,6 +40,18 @@ if ( ! defined( 'WPBP_PLUGIN_FILE' ) ) {
 }
 
 /**
+ * Check if WooCommerce is active
+ **/
+if ( !in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option( 'active_plugins' ) ) ) ) {
+
+	add_action('admin_notices', function() {
+        echo '<div class="notice notice-error"><p>'.esc_html__('product based checkout field manager requires WooCommerce to be installed and active. You can download', 'scfwc').' <a href="https://woocommerce.com/" target="_blank">WooCommerce</a> '.esc_html__('here.','wccfm').'</p></div>';   
+    });
+	return;
+
+}
+
+/**
  * Include necessary files to initial load of the plugin.
  */
 if ( ! class_exists( 'WPBP\Bootstrap' ) ) {
